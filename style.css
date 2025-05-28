@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(blurry-gradient-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    perspective: 600px;
+}
+
+
+h1 {
+    text-align: center !important;
+    padding: 23px;
+    color: white;
+    border-bottom: 2px solid white;
+    width: fit-content;
+    margin: auto;
+}
+
+.formstyle {
+    width: fit-content;
+    background-color: transparent;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 40px;
+    backdrop-filter: blur(100px);
+    box-shadow: 4px 4px 12px #0004;
+
+}
+
+input {
+    width: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 6px 41px;
+    margin: 5px 6px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+#calc {
+    width: 396px;
+    border: 4px solid white;
+    outline: none;
+    border-radius: 3px;
+    padding: 20px;
+    margin: auto;
+    font-size: 23px;
+
+}
+
+#clear {
+    width: 390px;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+@media (max-width:992px) {
+    body {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 20px;
+        border-bottom: none;
+        margin-top: 30px;
+    }
+
+    .formstyle {
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #calc {
+        width: 100%;
+        border: 4px solid white;
+        outline: none;
+        border-radius: 3px;
+        padding: 10px;
+        margin: auto;
+        font-size: 13px;
+    }
+
+    #clear {
+        width: 100% !important;
+        border-radius: 3px;
+        padding: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    input {
+        width: 20px;
+        padding: 4px 29px;
+        margin: 5px 6px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
